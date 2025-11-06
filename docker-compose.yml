@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: wzwcar
+      POSTGRES_PASSWORD: 2904
+      POSTGRES_DB: firstapi
+    ports:
+      - 5432:5432
