@@ -17,7 +17,7 @@ A REST API using Node.js and PostgreSQL with pg library and using Express.js for
 3. Create a database in PostgreSQL
 
 4. Create a .env file in the root directory and add the following:
-
+Look at the database/db.sql file in the project root and run. 
 ```
 DB_USER=your_username
 DB_PASSWORD=your_password
@@ -43,5 +43,6 @@ or just copy the .env.template file and fill it with your data.
 To run eslint: `npm run lint`
 
 ## License
+
 
 This project is open-sourced software licensed under the MIT License.
